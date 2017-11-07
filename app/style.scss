@@ -1,0 +1,64 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import '~bootstrap/dist/css/bootstrap.css';
+
+/*~~~~~~~~~~~~~global style~~~~~~~~~~*/
+$font-stack: Helvetica, sans-serif;
+$base-padding: 0;
+$base-margin: 0;
+$base-width: 100vw;
+$base-height: 100vh;
+//$border-color: ;
+//$button-color: ;
+
+.config{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/*~~~~~~~~~~NAVBAR START~~~~~~~~~~~~~~~~~~*/
+.navbar {
+    padding-top: 0;
+    width: 100%;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*~~~~~~~~~~~~~NAVBAREND~~~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~Description~~~~~~~~~~~*/
+.content {
+    margin-top: 72px;
+
+    .description {
+        margin: $base-margin;
+        padding: $base-padding;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+        .myPhoto {
+            height: 100vh;
+            background-color: red;
+            display: flex;
+
+            .photoStyle {
+                border-radius: 50%;
+                margin: auto;
+                width: 100%;
+            }
+        }
+
+        .myDescription {
+            background-color: blue;
+            width: $base-width;
+            height: $base-height;
+
+        }
+    }
+}
