@@ -18,21 +18,20 @@ $base-height: 100vh;
 }
 /*~~~~~~~~~~NAVBAR START~~~~~~~~~~~~~~~~~~*/
 .navbar {
-    padding-top: 0;
     width: 100%;
+    padding-top: 100px;
 }
 .nav-item{
     display: flex;
     justify-content: space-between;
     width: 100%;
-
 }
 
 /*~~~~~~~~~~~~~NAVBAREND~~~~~~~~~~~~~~*/
 
 /*~~~~~~~~~~~Description~~~~~~~~~~~*/
 .content {
-    margin-top: 72px;
+    margin-top: 164px;
 
     .description {
         margin: $base-margin;
