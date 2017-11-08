@@ -1,0 +1,16 @@
+
+$font-stack: Helvetica, sans-serif;
+$base-padding: 0;
+$base-margin: 0;
+$base-width: 100vw;
+$base-height: 100vh;
+$basic-color: #FFFFF;
+//$border-color: ;
+//$button-color: ;
+
+.config {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}

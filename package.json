@@ -7,6 +7,7 @@
     "bootstrap-loader": "^2.2.0",
     "file-loader": "^1.1.5",
     "font-awesome": "^4.7.0",
+    "font-awesome-webpack": "0.0.5-beta.2",
     "latest-version": "^3.1.0",
     "moment": "^2.19.1",
     "ruby": "^0.6.1"
@@ -35,7 +36,8 @@
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.6",
-    "webpack-dev-server": "2.7.1"
+    "webpack-dev-server": "2.7.1",
+    "file-loader": "^0.8.1"
   },
   "scripts": {
     "clean": "rimraf dist",
