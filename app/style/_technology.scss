@@ -1,9 +1,32 @@
 .usingTechnology{
+  text-align: center;
+  padding-bottom: 50px;
+
+  .technologyTitle {
+    flex-flow: column;
+    padding-bottom: 50px;
+    h2 {
+      padding: 25px 0 0 0;
+    }
+    hr {
+      width: 500px;
+    }
+  }
 
   .allTechnology{
+    display: flex;
+
+    .place{
+      justify-content: space-between;
+      padding: 0 20px 0 20px;
+    }
 
     .technology{
 
+      .techImg {
+        width: 220px;
+        height: 220px;
+      }
     }
   }
 }

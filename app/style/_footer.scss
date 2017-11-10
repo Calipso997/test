@@ -1,0 +1,26 @@
+footer {
+  background-color: #636E79;
+  .footerTxt {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    flex-flow: column;
+
+    hr {
+      width: 500px;
+    }
+  }
+  .footer {
+    justify-content: space-between;
+    padding: 0 25% 1% 25%;
+
+    .myMedia {
+      a{
+        i:focus, i:hover {
+          color: #1D2B39;
+          //color: #014c8c;
+        }
+      }
+    }
+  }
+}

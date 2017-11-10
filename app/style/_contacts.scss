@@ -1,0 +1,34 @@
+.personalData{
+
+  .personalTitle{
+    text-align: center;
+    padding: 25px 0 25px 0;
+    flex-flow: column;
+
+    hr{
+      width: 500px;
+    }
+  }
+
+  .personalContact{
+    padding: 25px 0  45px 0;
+
+    .contact{
+      flex-flow: column;
+
+      .wde{
+
+      }
+
+    }
+    .form {
+      justify-content: start;
+      padding-left: 100px;
+
+      .contactForm{
+
+      }
+
+    }
+  }
+}
