@@ -15,20 +15,36 @@
 
     .contact{
       flex-flow: column;
+      margin-bottom: auto;
 
-      .wde{
+      .fhg {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
 
+        .wde {
+          flex-flow: column;
+          align-items: flex-start;
+          padding-top:5px;
+
+          :before {
+            padding-right: 15px;
+          }
+        }
       }
-
     }
+
     .form {
       justify-content: start;
-      padding-left: 100px;
+      margin-bottom: auto;
 
       .contactForm{
-
+        .form-group{
+          label{
+            padding-top: 0px;
+          }
+        }
       }
-
     }
   }
 }

@@ -18,14 +18,18 @@
 
     .place{
       justify-content: space-between;
-      padding: 0 20px 0 20px;
+
+      p{
+        padding: 0 5px 0 5px;
+
+      }
     }
 
     .technology{
 
       .techImg {
-        width: 220px;
-        height: 220px;
+       width: 128px;
+       height: 128px;
       }
     }
   }
