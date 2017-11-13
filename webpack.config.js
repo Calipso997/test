@@ -50,14 +50,19 @@ module.exports = {
             }
         ],
         loaders: [
-            // the url-loader uses DataUrls.
-            // the file-loader emits files.
+            { test: /tether\.js$/, loader: "expose?Tether" },
             { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&mimetype=application/font-woff" },
             { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" }
         ]
     },
     devtool: 'source-map',
     plugins:[
+        new webpack.ProvidePlugin({
+            $: "jquery",
+            jQuery: "jquery",
+            "window.jQuery": "jquery",
+            "window.Tether": 'tether'
+        }),
         new HtmlWebpackPlugin({
             template: 'app/index.html'
         }),

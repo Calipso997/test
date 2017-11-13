@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "aos": "^2.2.0",
     "bootstrap-loader": "^2.2.0",
     "file-loader": "^1.1.5",
     "font-awesome": "^4.7.0",
     "font-awesome-webpack": "0.0.5-beta.2",
     "latest-version": "^3.1.0",
     "moment": "^2.19.1",
-    "ruby": "^0.6.1"
+    "ruby": "^0.6.1",
+    "tether": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "6.26.0",
