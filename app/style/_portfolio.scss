@@ -1,29 +1,30 @@
 .portfolio{
   padding: 0 0 50px 0;
-
   .portfolioTitle{
     text-align: center;
     padding: 25px 0 25px 0;
     flex-flow: column;
-  }
-  hr{
-    width: 500px;
+    hr {
+      width: 500px;
+    }
   }
 
   .project{
     padding-top: 25px;
-
-    .xxx{
-
-      h2{
-
+    .schedulePr{
+      padding: 5px 0 5px 0;
+      .img_project{
+        width: 70%;
+        height: 70%;
       }
-
+      h2{
+        text-align: center;
+      }
       a{
-
-        .img_project{
-
-        }
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

@@ -5,17 +5,17 @@ footer {
     text-align: center;
     padding: 15px 0 15px 0;
     flex-flow: column;
-
     hr {
       width: 500px;
     }
   }
   .footer {
-    justify-content: space-between;
     padding: 0 25% 1% 25%;
-
+    flex-flow: row;
     .myMedia {
       a{
+        display: flex;
+        justify-content: center;
         color: #06487E;
         i:focus, i:hover {
           color: #1D2B39;

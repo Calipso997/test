@@ -1,9 +1,7 @@
 .myLife{
-
   .aboutMe {
     padding: 50px 0 50px 0;
     flex-flow: column;
-
     hr{
       width: 500px;
     }
@@ -11,24 +9,19 @@
       text-align: center;
     }
   }
-
   .partOfLife {
-
     .newLife {
       height: 100%;
       padding: 0 50px 0 50px;
       margin-bottom: auto;
-
       h2{
         text-align: center;
       }
     }
-
     .oldLife {
       height: 100%;
       padding: 0 50px 0 50px;
       margin-bottom: auto;
-
       h2{
         text-align: center;
       }

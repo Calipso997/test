@@ -1,7 +1,6 @@
 .usingTechnology{
   text-align: center;
   padding-bottom: 50px;
-
   .technologyTitle {
     flex-flow: column;
     padding-bottom: 50px;
@@ -12,19 +11,14 @@
       width: 500px;
     }
   }
-
   .allTechnology{
     display: flex;
-
     .place{
       justify-content: space-between;
-
       p{
         padding: 0 5px 0 5px;
-
       }
     }
-
     .technology{
 
       .techImg {

@@ -12,32 +12,26 @@
 
   .personalContact{
     padding: 25px 0  45px 0;
-
     .contact{
       flex-flow: column;
       margin-bottom: auto;
-
-      .fhg {
+      .scheduleCont {
         display: flex;
         flex-flow: column;
         align-items: flex-end;
-
-        .wde {
+        .myData {
           flex-flow: column;
           align-items: flex-start;
           padding-top:5px;
-
           :before {
             padding-right: 15px;
           }
         }
       }
     }
-
     .form {
       justify-content: start;
       margin-bottom: auto;
-
       .contactForm{
         .form-group{
           label{
