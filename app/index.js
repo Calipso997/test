@@ -4,15 +4,14 @@ import $ from 'jquery';
 import moment from 'moment';
 import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
-import AOS from '../node_modules/aos/dist/aos.js';
+import AOS from 'aos';
 import 'tether';
-
+AOS.init();
 
 const port = 3000;
 const apiUri = `http://localhost:${port}`;
 
-AOS.init();
-// AOS.refresh();
-// AOS.init({
-//     duration: 1200,
-// })
+
+
+
+

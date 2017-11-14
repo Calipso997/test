@@ -61,7 +61,9 @@ module.exports = {
             $: "jquery",
             jQuery: "jquery",
             "window.jQuery": "jquery",
-            "window.Tether": 'tether'
+            "window.Tether": 'tether',
+            tether: 'tether',
+            Tether: 'tether'
         }),
         new HtmlWebpackPlugin({
             template: 'app/index.html'
