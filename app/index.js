@@ -11,7 +11,8 @@ import 'tether';
 const port = 3000;
 const apiUri = `http://localhost:${port}`;
 
-
-AOS.init({
-    duration: 1200,
-})
+AOS.init();
+// AOS.refresh();
+// AOS.init({
+//     duration: 1200,
+// })

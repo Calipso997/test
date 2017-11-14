@@ -15,9 +15,9 @@
     }
     .myDescription {
       height: 100%;
-      .xxxx{
-        margin: auto;
-        width: 100%;
+      flex-flow: column;
+      p{
+        padding: 25px 0 25px 0;
       }
     }
   }
