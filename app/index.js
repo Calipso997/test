@@ -6,7 +6,9 @@ import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
 import AOS from 'aos';
 import 'tether';
-AOS.init();
+AOS.init({
+    disable: window.innerWidth < 540
+});
 
 const port = 3000;
 const apiUri = `http://localhost:${port}`;

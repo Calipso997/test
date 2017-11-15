@@ -1,11 +1,12 @@
+@import "variables";
+
 .navbar {
   padding-top: 10px;
 
   .navPlace {
-    //display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
+    width: $percent-width;
   }
 }

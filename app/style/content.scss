@@ -1,11 +1,13 @@
+@import "variables";
+
 .content {
   padding-top: 82px;
-  height: 100vh;
+  height: $base-height;
   display: flex;
 
   .description {
     margin: $base-margin;
-    padding: $base-padding;
+    padding-left: 70px;
     .myPhoto {
       .photoStyle {
         border-radius: 50%;
@@ -14,7 +16,7 @@
       }
     }
     .myDescription {
-      height: 100%;
+      height: $percent-height;
       flex-flow: column;
       p{
         padding: 25px 0 25px 0;

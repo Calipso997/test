@@ -1,3 +1,5 @@
+@import "variables";
+
 .myLife{
   .aboutMe {
     padding: 25px 0 50px 0;
@@ -8,7 +10,7 @@
   }
   .partOfLife {
     .newLife {
-      height: 100%;
+      height: $percent-height;
       padding: 0 50px 0 50px;
       margin-bottom: auto;
       h2{
@@ -16,7 +18,7 @@
       }
     }
     .oldLife {
-      height: 100%;
+      height: $percent-height;
       padding: 0 50px 0 50px;
       margin-bottom: auto;
       h2{
