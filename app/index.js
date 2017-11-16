@@ -6,8 +6,9 @@ import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
 import AOS from 'aos';
 import 'tether';
+
 AOS.init({
-    disable: window.innerWidth < 540
+    disable: window.innerWidth < 479
 });
 
 const port = 3000;

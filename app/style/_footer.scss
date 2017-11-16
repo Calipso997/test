@@ -1,23 +1,29 @@
-@import "variables";
+@import "global";
 
 footer {
-  background-color: #818A92;
+  background-color: #0275d8;
   .footerTxt {
     border-top: 2px solid black;
     text-align: center;
     padding: 15px 0 15px 0;
     flex-flow: column;
+    color: white;
   }
   .footer {
     padding: 0 25% 1% 25%;
     flex-flow: row;
-    .myMedia {
+    .myMedia{
+      display: flex;
+      justify-content: center;
       a{
-        display: flex;
+        display: inline-block;
         justify-content: center;
-        color: #06487E;
+        color: white;
         i:focus, i:hover {
-          color: #1D2B39;
+          color: #04092F;
+        }
+        &:hover{
+          text-decoration: none;
         }
       }
     }

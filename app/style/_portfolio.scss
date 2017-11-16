@@ -10,18 +10,19 @@
     padding-top: 25px;
     .schedulePr{
       padding: 5px 0 5px 0;
-      .img_project{
-        width: 70%;
-        height: 70%;
-      }
+        a{
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .img_project{
+            width: 70%;
+            height: 70%;
+          }
+        }
       h2{
         text-align: center;
-      }
-      a{
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
+        padding-top: 20px;
       }
     }
   }

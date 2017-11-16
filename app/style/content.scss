@@ -7,11 +7,12 @@
 
   .description {
     margin: $base-margin;
-    padding-left: 70px;
+
     .myPhoto {
       .photoStyle {
         border-radius: 50%;
         margin: auto;
+        margin-left: 120px;
         width: 100%;
       }
     }
@@ -19,7 +20,7 @@
       height: $percent-height;
       flex-flow: column;
       p{
-        padding: 25px 0 25px 0;
+        padding: 25px 5px 25px 5px;
       }
     }
   }

@@ -19,6 +19,9 @@
           flex-flow: column;
           align-items: flex-start;
           padding-top:5px;
+          i{
+            display: flex;
+          }
           :before {
             padding-right: 15px;
           }
