@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e55b12d6-43a5-481e-b1f4-3efb84be5b4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_contacts.scss" afterPath="$PROJECT_DIR$/app/style/_contacts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_footer.scss" afterPath="$PROJECT_DIR$/app/style/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_life.scss" afterPath="$PROJECT_DIR$/app/style/_life.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_navbar.scss" afterPath="$PROJECT_DIR$/app/style/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_portfolio.scss" afterPath="$PROJECT_DIR$/app/style/_portfolio.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/_variables.scss" afterPath="$PROJECT_DIR$/app/style/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/content.scss" afterPath="$PROJECT_DIR$/app/style/content.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/style/style.scss" afterPath="$PROJECT_DIR$/app/style/style.scss" />
-    </list>
+    <list default="true" id="e55b12d6-43a5-481e-b1f4-3efb84be5b4f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -240,7 +228,7 @@
       <workItem from="1510741007259" duration="13482000" />
       <workItem from="1510784118929" duration="376000" />
       <workItem from="1510826098235" duration="11494000" />
-      <workItem from="1510845154280" duration="713000" />
+      <workItem from="1510845154280" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="xxxc">
       <created>1510063237984</created>
@@ -253,11 +241,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155385000" />
+    <option name="totallyTimeSpent" value="155948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1368" height="741" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -266,7 +253,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
