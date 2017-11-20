@@ -11,16 +11,19 @@
     .contact{
       flex-flow: column;
       margin-bottom: auto;
+      padding:0;
       .scheduleCont {
         display: flex;
-        flex-flow: column;
-        align-items: flex-end;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-around;
         .myData {
           flex-flow: column;
           align-items: flex-start;
           padding-top:5px;
           i{
             display: flex;
+            padding-top: 10px;
           }
           :before {
             padding-right: 15px;
@@ -29,8 +32,9 @@
       }
     }
     .form {
-      justify-content: start;
+      justify-content: space-around;
       margin-bottom: auto;
+      padding: 0;
       .contactForm{
         .form-group{
           label{
