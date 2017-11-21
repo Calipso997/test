@@ -9,9 +9,11 @@
   .personalContact{
     padding: 25px 0  45px 0;
     .contact{
-      flex-flow: column;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
       margin-bottom: auto;
-      padding:0;
+      padding:50px 0 0 90px;
       .scheduleCont {
         display: flex;
         flex-flow: row;
@@ -32,9 +34,11 @@
       }
     }
     .form {
-      justify-content: space-around;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
       margin-bottom: auto;
-      padding: 0;
+      padding: 0 90px 0 0;
       .contactForm{
         .form-group{
           label{
