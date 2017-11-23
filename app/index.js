@@ -6,6 +6,7 @@ import 'bootstrap/js/dist/collapse';
 import 'bootstrap/js/dist/dropdown';
 import AOS from 'aos';
 import 'tether';
+import 'popper.js';
 
 AOS.init({
     disable: window.innerWidth < 479

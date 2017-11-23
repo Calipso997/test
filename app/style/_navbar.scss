@@ -2,11 +2,14 @@
 
 .navbar {
   padding-top: 10px;
-
-  .navPlace {
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: $percent-width;
+  .navbar-nav {
+    .nav-link {
+      &.navPlace {
+        padding-right: 1.5rem;
+      }
+    }
   }
+
 }
+
+
