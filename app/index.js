@@ -17,6 +17,5 @@ const apiUri = `http://localhost:${port}`;
 
 
 
-// import portfolioPict from '../img/portfolioPict.JPG';
-// import
+
 
