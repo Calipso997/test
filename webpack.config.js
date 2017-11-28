@@ -8,7 +8,7 @@ const VENDOR_LIBS=[
 module.exports = {
     entry:{
         bundle: './app/index.js',
-        vendor: VENDOR_LIBS
+        //vendor: VENDOR_LIBS
     },
     output: {
         filename: '[name].[chunkhash].js',
@@ -37,14 +37,6 @@ module.exports = {
                 use:[
                     {
                         loader:  'url-loader',
-                        options:{
-                            limit:40000
-                        }
-                    },
-                    {
-                        loader:'image-webpack-loader',
-                        options:{
-                        }
                     }
                 ]
             }
