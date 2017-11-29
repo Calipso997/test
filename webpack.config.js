@@ -34,20 +34,18 @@ module.exports = {
                 loader: "url-loader?limit=10000&minetype=application/font-woff"
             },
             {
-                test: /\.(jpe?g|png|gif|svg|JPE?G)$/,
+                test: /\.(jpe?g|png|gif|svg.*|JPE?G*)$/,
                 use:[
                     {
-                        loader:  'url-loader',
-                        options:{
-                            limit:40000
-                        }
-                    },
-                    {
-                        loader:'image-webpack-loader',
+                        loader:'file-loader',
                         options:{
                         }
                     }
                 ]
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader'
             }
         ],
         loaders: [
