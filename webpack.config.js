@@ -12,7 +12,8 @@ module.exports = {
     },
     output: {
         filename: '[name].[chunkhash].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        //publicPath: 'dist/'
     },
     module: {
         rules: [
@@ -33,10 +34,18 @@ module.exports = {
                 loader: "url-loader?limit=10000&minetype=application/font-woff"
             },
             {
-                test: /\.(jpe?g|png|gif|svg)$/,
+                test: /\.(jpe?g|png|gif|svg|JPE?G)$/,
                 use:[
                     {
                         loader:  'url-loader',
+                        options:{
+                            limit:40000
+                        }
+                    },
+                    {
+                        loader:'image-webpack-loader',
+                        options:{
+                        }
                     }
                 ]
             }
